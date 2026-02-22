@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Web Calculator</h1>
+
+<div class="calc-wrapper">
+<!-- calc-wrapper groups both right panel and buttons together so they are side by side -->
+<div class="Calculator">
+
+<button data-value="AC">AC</button><button data-value="back">↩</button><button data-value="percent">%</button><button data-value="divide" class="specialboys">÷</button>
+
+<button data-value="7">7</button><button data-value="8">8</button><button data-value="9">9</button><button data-value="multiply" class="specialboys">x</button>
+
+<button data-value="4">4</button><button data-value="5">5</button><button data-value="6">6</button><button data-value="minus" class="specialboys">−</button>
+
+<button data-value="1">1</button><button data-value="2">2</button><button data-value="3">3</button><button data-value="plus" class="specialboys">+</button>
+
+<button data-value="negative">+/-</button><button data-value="0">0</button><button data-value="dot">.</button><button data-value="equals" class="specialboys">=</button>
+<!-- data-value is for sending the imput to javascript -->
+</div>
+
+<!-- this is the right display below -->
+
+<div class="display">
+ <div id="history">12 + 7</div>
+      <div id="current">19</div>
+    </div>
+</div>
+</div>
+<script src="InputRegister.js"></script>
+</body>
+</html>
+
+<!-- stuff to do, change the "history" and "current" to something else to allow input in top and erasure to place
+history there ass well, find a new font, make so 3.2.1 can't actually work, change 5/0 to not make infinity

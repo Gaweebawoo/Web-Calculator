@@ -1,0 +1,83 @@
+body {
+    background-color: #1b1d23;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(179, 179, 179);
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0)
+    
+    
+
+}
+
+.calc-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.Calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 25px;
+}
+
+button {
+    width: 120px;
+    height: 80px;
+    font-size: 40px;
+padding: 4px 3px;
+border-radius: 24px;
+
+background: linear-gradient(1deg, rgb(62, 47, 47), white);
+display:inline-block;
+
+margin-top: 1px;
+margin-right: 1px;
+margin-bottom: -20px;
+margin-left: 200px;
+display: flex;
+align-items: center;
+justify-content: center
+
+    
+}
+
+.specialboys {
+    background: linear-gradient( rgb(219, 245, 20), rgb(192, 114, 46));
+}
+
+.specialboys:active {
+        background: linear-gradient( rgb(122, 134, 35), rgb(92, 57, 26));
+
+}
+
+button:active {
+    background: linear-gradient(1deg, rgb(62, 47, 47), gray);
+}
+
+.display {
+    background: #506150;
+    color: black;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 425px;
+    margin-left: 250px;
+    font-family: "typodigit";
+    font-size: 60px;
+    text-align:left;
+
+}
+
+@font-face {
+    font-family: "typodigit";
+    src: url("font/DIGITALDREAMFAT.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
